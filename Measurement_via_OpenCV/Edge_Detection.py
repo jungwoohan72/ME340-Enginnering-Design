@@ -271,7 +271,7 @@ print("수평이거나 수직인 변 좌표들의 표준편차")
 print("좌변: %f, 밑변: %f, 우변: %f" % (left_std, bottom_std, right_std))
 print("윗면: %f, %f, %f, %f, %f" % (top_left_straight_std, top_center_left_std, top_center_std, top_center_right_std, top_right_straight_std))
 
-#Desplaying on screen
+#From here, code for displaying on screen
 
 display_dimension_img = crop_img_morph.copy()
 display_slope_img = crop_img_morph.copy()
